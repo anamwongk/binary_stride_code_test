@@ -1,0 +1,92 @@
+.faq {
+    margin: 0 10em 0 10em;
+}
+.faq-header {
+    margin: 0 0 2em 0;
+}
+.faq-header p {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+/* Categories */
+.faq-categories {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.faq-categories .category {
+    margin: 0 0 30px 0;
+}
+.faq-categories .category span {
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+.faq-categories .category.active span {
+    border-bottom: 3px solid red;
+}
+
+/* Questions */
+.faq-questions {
+    width: 60%;
+    display: inline-block;
+}
+.faq-questions .question .title {
+    padding: 10px;
+    text-align: left;
+    background-color: #f7f7f7;
+}
+.faq-questions .question.active .title {
+    color: red;
+    background-color: transparent;
+}
+.faq-questions .question.active .title .arrow {
+    border: solid red;
+    border-width: 0 2px 2px 0;
+}
+.faq-questions .question .anwser.show {
+    display: block;
+}
+.faq-questions .question .anwser.hide {
+    display: none;
+}
+.faq-questions .question .anwser p {
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    color: #636363;
+}
+.faq-questions .question .anwser .useful {
+    text-align: left;
+} 
+.faq-questions .question .anwser .useful a {
+    padding: 6px;
+    color: #c74747;
+    display: inline-block;
+    font-size: 10px;
+} 
+
+/* Symbol */
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    float: right;
+    margin: 4px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
